@@ -1,3 +1,8 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color:#fff2f6;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,248 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* MAIN PAGE */
+/* .carousel-item {
+  width: 800px;
+  height: 500px;
+} 
+
+#carouselExampleCaption {
+  width: 1200px;
+  border: 10px solid black;
+}
+
+
+
+/* .carousel-inner {
+  width: 100%;
+}
+
+.carousel-caption {
+  font-size: 15px;
+} */ 
+
+/* 
+.carousel-inner{
+   height: 500px;
+   width: 100%;
+} */
+.carousel-text {
+  font-size: 40px;
+  color: coral;
+  font-family: 'Playfair Display', serif;
+}
+
+.carousel-title {
+  color: coral;
+  font-family: rubberneck;
+}
+
+.carousel-img{
+  height: 700px !important;
+}
+
+.icons {
+  margin-top: 6px;
+ margin-left: 3px;
+} 
+
+.second-part-mainpage {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ourmission-text {
+  margin-top: 40px;
+}
+
+.two-anchors {
+  display: inline-flex;
+}
+
+.loginsignup {
+  width: 100%;
+  text-align: right;
+}
+
+
+.admin-class {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-teachers {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-page-mission {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.main-page-mission h1 {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+ margin-left: 200px;
+}
+
+.home-page-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page-text h5 {
+  margin-top: 20px;
+}
+
+
+
+/* LOG IN PAGE */
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* COVID GUIDLINES */
+
+.covid-guidelines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.guideline-text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+
+
+/* FOOTER */
+
+.insta-icon {
+  margin-left: 5px;
+}
+
+
+/* LOG IN PAGE */
+
+#create-new-button {
+  text-decoration: none;
+  color: salmon;
+  
+}
+
+#log-in-button {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+
+/* ABOUT */
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.values-text {
+  margin-top: 20px;
+}
+
+.about-page-everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.space-about {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+/* CONTACT US */
+
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#whereweare {
+  margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#contactform {
+ margin-left: 200px;
+
+}
+
+/* NAV BAR */
+
+.logout-button {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  margin-left: 800px;
+}
+
+#all-navbar-items {
+  width: 100%;
+}
+
+/* PRIVATE CLASSES */
+
+.email-private {
+  text-decoration: underline;
+  margin-bottom: 80px;
+}
+
+.private-class-text {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+
+/* CLASS DESCRIPTION */
+
+.title-classdescription {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.different-styles {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
