@@ -264,6 +264,7 @@ justify-content: center;
 
 .email-private {
   text-decoration: underline;
+  margin-top: 10px;
   margin-bottom: 80px;
 }
 
@@ -272,6 +273,10 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+}
+
+.privateclasses {
+  margin-bottom: 20px;
 }
 
 
@@ -290,6 +295,7 @@ justify-content: center;
 
 /* TEACHER DETAIL */
 
+
 .teachers-detail {
   text-decoration: none;
   font-family: 'Playfair Display', serif;
@@ -300,6 +306,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .teacher-name {

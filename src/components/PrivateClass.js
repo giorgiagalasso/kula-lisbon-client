@@ -7,16 +7,17 @@ export const PrivateClass = () => {
         <>
         <div className="private-class-text">
 {/* <img src="../private.png" style={{width: "300px"}}></img> */}
-        
+        <div className="privateclasses">
         <h1>Private Classes</h1>
-        
+        <h5><i>Deepen your practice with our private classes</i></h5>
+        </div>
 <h5>Personalised sessions are great for beginners and advanced practitioners alike. <br></br>
 With one-on-one attention, you can work towards a specific goal and learn ways <br></br>
 to build your practice based on your specific needs.</h5>
 
 <h5>Book your private class with one of our teachers, online or in person, 
  private<br></br> classes for up to 6 people.
- Beginners will be introduced to the fundamentals <br></br> of yoga and Pilates 
+ Beginners will be introduced to the fundamentals <br></br> of Yoga 
  (postures, breath, philosophy) 
  and can ask questions, <br></br> break down postures and 
  receive explicit alignment instructions.<br></br></h5>

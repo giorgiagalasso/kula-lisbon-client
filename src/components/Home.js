@@ -22,13 +22,7 @@ export const Home = ({ user }) => {
         <p className="carousel-text"><i>A place to Heal, grow and breathe together.</i></p>
       </div>
     </div>
-    <div class="carousel-item carousel-box">
-      <img src="../mindfulness.jpg" class="d-block w-100 carousel-img" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 className="carousel-title">Kula</h5>
-        <p className="carousel-text"><i>Find your home away from home.</i></p>
-      </div>
-    </div>
+
     <div class="carousel-item carousel-box">
       <img src="../carouselll.jpg" class="d-block w-100 carousel-img" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
@@ -36,6 +30,14 @@ export const Home = ({ user }) => {
         <p className="carousel-text"><i>Where breath and movement come together.</i></p>
       </div>
     </div>
+    <div class="carousel-item carousel-box">
+      <img src="../youcandoit.JPG" class="d-block w-100 carousel-img" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 className="carousel-title">Kula</h5>
+        <p className="carousel-text"><i>Find your home away from home.</i></p>
+      </div>
+    </div>
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
