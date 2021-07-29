@@ -1,6 +1,7 @@
 body {
   font-family: 'Playfair Display', serif;
   background-color:#fff2f6;
+  color: coral;
 }
 
 .App {
@@ -220,7 +221,7 @@ body {
 .space-about {
   margin-top: 20px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 
@@ -284,4 +285,27 @@ justify-content: center;
 .different-styles {
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+
+/* TEACHER DETAIL */
+
+.teachers-detail {
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  color: coral;
+}
+
+.classdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teacher-name {
+  margin-top: 20px;
+}
+
+.ourteachers {
+  margin-bottom: 50px;
 }

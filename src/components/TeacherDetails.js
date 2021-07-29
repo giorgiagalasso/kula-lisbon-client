@@ -7,15 +7,18 @@ class TeacherDetails extends React.Component {
   state = {
     id: "",
     teacher: "",
+    style: "",
     description: "",
     imageUrl: "",
   };
 
   async componentDidMount() {
+    console.log(this.props.match.params.id);
     const response = await getTeacher(this.props.match.params.id);
     console.log(response.data)
     this.setState({
       id: response.data._id,
+      style: response.data._id,
       teacher: response.data.teacher,
       description: response.data.description,
       imageUrl: response.data.imageUrl,
@@ -30,13 +33,15 @@ class TeacherDetails extends React.Component {
   };
 
   render() {
-    const { id, description, imageUrl, teacher} = this.state;
+    const { id, style, description, imageUrl, teacher} = this.state;
+    console.log(this.state)
     return (
       <>
        {imageUrl && (
           <img style={{ width: "100px" }} src={imageUrl} alt="project" />
         )}
         <h2>{teacher}</h2>
+        <h5>{style}</h5>
         <p>{description}</p>
         
         <div>

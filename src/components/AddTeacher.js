@@ -3,8 +3,9 @@ import { addTeacher, uploadFile } from "../api";
 import { toast } from "react-toastify";
 
 class AddTeacher extends React.Component {
-  state = {
+    state = {
     teacher: "",
+    style: "",
     description: "",
     imageURL: "",
   };
@@ -17,13 +18,13 @@ class AddTeacher extends React.Component {
 
   handleFormSubmit = async (event) => {
     event.preventDefault();
-
     const uploadData = new FormData();
     uploadData.append("image", this.state.imageUrl);
 
     const response = await uploadFile(uploadData);
 
     const newTeacher = {
+      style: this.state.style,
       teacher: this.state.teacher,
       description: this.state.description,
       imageUrl: response.data.fileUrl,
@@ -42,7 +43,7 @@ class AddTeacher extends React.Component {
   };
 
   render() {
-    const {  teacher, description} = this.state;
+    const {style,  teacher, description} = this.state;
     return (
       <>
         <h2>Add Teacher</h2>
@@ -54,6 +55,15 @@ class AddTeacher extends React.Component {
             name="teacher"
             value={teacher}
           />
+
+         <label>Style</label>
+          <input
+            type="text"
+            onChange={this.handleChange}
+            name="style"
+            value={style}
+          />
+
           <label>Description</label>
           <input
             type="text"

@@ -64,13 +64,13 @@ return loggedInUser ? (
 
           
           <li class="nav-item">
-          <a href="https://www.instagram.com/kulalisbon/?hl=en"><img className="insta-icon" src="../instagram.png" style={{width:16}}></img></a>
+          <a target="_blank"  href="https://www.instagram.com/kulalisbon/?hl=en"><img className="insta-icon" src="../instagram.png" style={{width:16}}></img></a>
           </li>
 
           
 
           <li class="nav-item">
-          <a href="https://www.facebook.com/profile.php?id=100070787483244"><img className="insta-icon" src="../facebook.png" style={{width:16}}></img></a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100070787483244"><img className="insta-icon" src="../facebook.png" style={{width:16}}></img></a>
           </li>
           <li>
           <NavLink to="/">
@@ -82,7 +82,7 @@ return loggedInUser ? (
   </div>
 </nav>) : 
 (
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand"><img src="../my-logo.png" style={{width:100}}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,8 +128,8 @@ return loggedInUser ? (
 
           <li class="nav-item loginsignup">    
           <div className="two-anchors">
-          <a className="icons" href="https://www.facebook.com/profile.php?id=100070787483244"><img className="insta-icon" src="../facebook.png" style={{width:16}}></img></a>
-          <a className="icons" href="https://www.instagram.com/kulalisbon/?hl=en"><img className="insta-icon" src="../instagram.png" style={{width:16}}></img></a>
+          <a target="_blank" className="icons" href="https://www.facebook.com/profile.php?id=100070787483244"><img className="insta-icon" src="../facebook.png" style={{width:16}}></img></a>
+          <a target="_blank" className="icons" href="https://www.instagram.com/kulalisbon/?hl=en"><img className="insta-icon" src="../instagram.png" style={{width:16}}></img></a>
           <a class="nav-link active" aria-current="page" href="/login">Login</a>      
           <a class="nav-link active" aria-current="page" href="/signup">Sign Up</a>
           </div> 

@@ -27,6 +27,10 @@ to build your practice based on your specific needs.</h5>
  Send us an email for more information</h5> 
  
  <h5 className="email-private">kulalisbon@gmail.com</h5>
+
+ <div>
+<img className="space-about" src="../kula_heart.png" style={{width: "100px"}}></img>
+    </div>
 </div>
         </>
     )

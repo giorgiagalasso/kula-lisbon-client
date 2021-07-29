@@ -39,8 +39,9 @@ export const CovidGuidelines = () => {
 
 </div>
 
-<button>Mindbody</button>
-
+<div>
+    <img className="space-about" src="../kula_heart.png" style={{width: "100px"}}></img>
+    </div>
 </div>
         </>
     )

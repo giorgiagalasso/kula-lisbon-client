@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 class UpdateTeacher extends React.Component {
   state = {
     id:"",
+    style: "",
     imageUrl: "",
     description: "",
     teacher: "",
@@ -16,6 +17,7 @@ class UpdateTeacher extends React.Component {
     const response = await getTeacher(this.props.match.params.id);
     this.setState({
       id: response.data._id,
+      style: response.data.style,
       imageUrl: response.data.imageUrl,
       description: response.data.description,
       teacher: response.data.teacher,
@@ -37,7 +39,7 @@ class UpdateTeacher extends React.Component {
   };
 
   render() {
-    const {imageUrl, description, teacher } = this.state;
+    const {imageUrl, description, teacher, style } = this.state;
     return (
       <form onSubmit={this.handleFormSubmit}>
          <label>Image</label>
@@ -62,6 +64,14 @@ class UpdateTeacher extends React.Component {
           name="teacher"
           onChange={this.handleChange}
           value={teacher}
+          />
+
+        <label>Style</label>
+        <input
+          type="text"
+          name="style"
+          onChange={this.handleChange}
+          value={style}
           />
         
         <button type="submit">Update</button>

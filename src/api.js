@@ -9,7 +9,7 @@ export const getAllClasses = () => {
 };
 
 export const addClass = (addAClass) => {
-  return axios.post(`${baseURL}/classes`, addAClass);
+  return axios.post(`${baseURL}/classes`, addAClass, {withCredentials: true});
 };
 
 export const getClass = (classId) => {
@@ -17,15 +17,15 @@ export const getClass = (classId) => {
 };
 
 export const deleteClass = (deleteClassId) => {
-  return axios.delete(`${baseURL}/classes/${deleteClassId}`);
+  return axios.delete(`${baseURL}/classes/${deleteClassId}`, {withCredentials: true});
 };
 
 export const updateClass = (updatedClass) => {
-  return axios.put(`${baseURL}/classes/${updatedClass.id}`, updatedClass);
+  return axios.put(`${baseURL}/classes/${updatedClass.id}`, updatedClass, {withCredentials: true});
 };
 
 export const uploadFile = (uploadData) => {
-  return axios.post(`${baseURL}/upload`, uploadData);
+  return axios.post(`${baseURL}/upload`, uploadData, {withCredentials: true});
 };
 
 
@@ -33,11 +33,11 @@ export const uploadFile = (uploadData) => {
 /* TEACHER ROUTES */
 
 export const getAllTeachers = () => {
-  return axios.get(`${baseURL}/teachers`);
+  return axios.get(`${baseURL}/teachers`)
 };
 
 export const addTeacher = (addATeacher) => {
-  return axios.post(`${baseURL}/teachers`, addATeacher);
+  return axios.post(`${baseURL}/teachers`, addATeacher, {withCredentials: true});
 };
 
 export const getTeacher = (teacherId) => {
@@ -45,11 +45,11 @@ export const getTeacher = (teacherId) => {
 };
 
 export const deleteTeacher = (deleteTeacherId) => {
-  return axios.delete(`${baseURL}/teachers/${deleteTeacherId}`);
+  return axios.delete(`${baseURL}/teachers/${deleteTeacherId}`, {withCredentials: true});
 };
 
 export const updateTeacher = (updatedTeacher) => {
-  return axios.put(`${baseURL}/teachers/${updatedTeacher.id}`, updatedTeacher);
+  return axios.put(`${baseURL}/teachers/${updatedTeacher.id}`, updatedTeacher, {withCredentials: true});
 };
 
 

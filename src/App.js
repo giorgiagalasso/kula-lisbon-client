@@ -69,7 +69,11 @@ class App extends React.Component {
 
           <Route exact path={ "/about"} component={About} />
 
-          <Route exact path={ "/teachers"} component={OurTeachers} />
+          <Route exact
+            path="/teachers"
+            render={(props) => {
+              return <OurTeachers {...props} user={this.state.loggedInUser} />;
+            }} />
 
           <Route exact path={ "/schedule"} component={Schedule} />
 
@@ -98,7 +102,7 @@ class App extends React.Component {
 
           <Route exact path="/teachers/add" component={AddTeacher} />
           
-          <Route exact path={"/teachers"} component={ListTeachers} />
+          {/* <Route exact path={"/teachers"} component={ListTeachers} /> */}
 
           <Route exact path="/teachers/:id" component={TeacherDetails} />
 

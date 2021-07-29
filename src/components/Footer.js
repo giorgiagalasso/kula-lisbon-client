@@ -41,9 +41,10 @@ return (
             Kula
           </h6>
           <p>
-            Kula, as a community we want to create a safe space where you can come, disconnect,
-            practice, breathe and let go feeling at peace with where you are. 
-            Make your booking through mind and body.
+            As a community we want to create a safe space where you can meet, disconnect,
+            practice, breathe and let go of what is going on in our day to day lives
+            and practice the art of presence together, creating a sense of peace within oursleves. 
+      
           </p>
         </div>
         
@@ -64,6 +65,9 @@ return (
           </p>
           <p>
             <a href="/about" class="text-reset">Our Community</a>
+          </p>
+          <p>
+            <a href="/teachers" class="text-reset">Our Teachers</a>
           </p>
 
          

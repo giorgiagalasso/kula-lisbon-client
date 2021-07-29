@@ -16,7 +16,7 @@ export const Home = ({ user }) => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active carousel-box">
-      <img src="../carousell.jpg" class="d-block w-100 carousel-img" alt="..."/>
+      <img src="../home-page.jpg" class="d-block w-100 carousel-img" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5 className="carousel-title">Kula</h5>
         <p className="carousel-text"><i>A place to Heal, grow and breathe together.</i></p>
