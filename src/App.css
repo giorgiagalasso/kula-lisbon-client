@@ -96,6 +96,12 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
+@media(max-width: 768px){
+ .second-part-mainpage{display:flex; flex-direction: column; justify-content: center; align-items: center;}
+  .carousel-img {height: 600px !important;}
+}
+
 .ourmissiontitle{
   font-size: 30px;
 }

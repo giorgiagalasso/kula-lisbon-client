@@ -17,7 +17,7 @@ export const Home = ({ user }) => {
   <div class="carousel-inner">
     <div class="carousel-item active carousel-box">
       <img src="../home-page.jpg" class="d-block w-100 carousel-img" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
      
         <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
         <p className="carousel-text" id="carouseltitle-mainpage"><i>A place to Heal, grow and breathe together.</i></p>
@@ -27,14 +27,14 @@ export const Home = ({ user }) => {
 
     <div class="carousel-item carousel-box">
       <img src="../carouselll.jpg" class="d-block w-100 carousel-img" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
         <p className="carousel-text" id="carouseltitle-mainpage"><i>Where breath and movement come together.</i></p>
       </div>
     </div>
     <div class="carousel-item carousel-box">
       <img src="../youcandoit.JPG" class="d-block w-100 carousel-img" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
         <p className="carousel-text" id="carouseltitle-mainpage"><i>Find your home away from home.</i></p>
       </div>
