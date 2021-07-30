@@ -19,7 +19,7 @@ return loggedInUser ? (
 
 
    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
-   <p>Welcome {loggedInUser.username}</p>
+   {/* <p>Welcome {loggedInUser.username}</p> */}
   <div class="container-fluid">
     <a class="navbar-brand"><img src="../my-logo.png" style={{width:100}}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
