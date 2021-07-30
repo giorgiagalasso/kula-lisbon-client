@@ -18,23 +18,25 @@ export const Home = ({ user }) => {
     <div class="carousel-item active carousel-box">
       <img src="../home-page.jpg" class="d-block w-100 carousel-img" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5 className="carousel-title">Kula</h5>
-        <p className="carousel-text"><i>A place to Heal, grow and breathe together.</i></p>
+     
+        <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
+        <p className="carousel-text" id="carouseltitle-mainpage"><i>A place to Heal, grow and breathe together.</i></p>
+    
       </div>
     </div>
 
     <div class="carousel-item carousel-box">
       <img src="../carouselll.jpg" class="d-block w-100 carousel-img" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5 className="carousel-title">Kula</h5>
-        <p className="carousel-text"><i>Where breath and movement come together.</i></p>
+        <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
+        <p className="carousel-text" id="carouseltitle-mainpage"><i>Where breath and movement come together.</i></p>
       </div>
     </div>
     <div class="carousel-item carousel-box">
       <img src="../youcandoit.JPG" class="d-block w-100 carousel-img" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5 className="carousel-title">Kula</h5>
-        <p className="carousel-text"><i>Find your home away from home.</i></p>
+        <h5 className="carousel-title" id="carouseltitle-mainpage">Kula</h5>
+        <p className="carousel-text" id="carouseltitle-mainpage"><i>Find your home away from home.</i></p>
       </div>
     </div>
     
@@ -54,7 +56,7 @@ export const Home = ({ user }) => {
   <img src="../class-detail.png" style={{width: "400px"}}></img>
 
   <div className="ourmission-text">
-    <h3>Our Mission</h3>
+    <h3 className="ourmissiontitle">Our Mission</h3>
     <p>To create a space to feel love, <br></br>
 But also a place to breathe and connect,<br></br>
 A place to slow down,<br></br>

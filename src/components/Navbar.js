@@ -74,7 +74,7 @@ return loggedInUser ? (
           </li>
           <li>
           <NavLink to="/">
-            <a className="logout-button" onClick={logoutUser}>Logout</a>
+            <a className="two-anchors" onClick={logoutUser}>Logout</a>
           </NavLink>
         </li>
       </ul>

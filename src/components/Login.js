@@ -20,7 +20,7 @@ class Login extends React.Component {
     try {
       const user = await login(this.state);
       this.props.setLoggedInUser(user.data);
-      toast.success("Login successful");
+      toast.success("Login Successfull 👏");
       this.props.history.push("/");
     } catch (e) {
       toast.error("Invalid login");

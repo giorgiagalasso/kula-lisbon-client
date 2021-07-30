@@ -75,6 +75,7 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+
 .carousel-title {
   color: coral;
   font-family: rubberneck;
@@ -95,9 +96,14 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.ourmissiontitle{
+  font-size: 30px;
+}
 
 .ourmission-text {
   margin-top: 40px;
+  font-size: 15px;
+
 }
 
 .two-anchors {
